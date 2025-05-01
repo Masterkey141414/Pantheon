@@ -1,0 +1,16 @@
+
+name: pantheon
+description: An offline-capable AI assistant.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  path_provider: ^2.0.11
+
+flutter:
+  uses-material-design: true
